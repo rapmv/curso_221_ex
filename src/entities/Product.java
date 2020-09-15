@@ -26,13 +26,6 @@ public class Product {
 		this.price = price;
 	}
 	
-	public static void staticPriceUpdate(Product p) {
-		p.setPrice(p.getPrice()*1.1);
-	}
-	
-	public void nonStaticPriceUpdate() {
-		price *= 1.1;
-	}
 
 	@Override
 	public String toString() {
